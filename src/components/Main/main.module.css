@@ -1,0 +1,142 @@
+main {
+  background-image: linear-gradient(
+    to right,
+    #ded4d8,
+    #e5dfe3,
+    #edeaed,
+    #f5f4f6,
+    #ffffff
+  );
+  height: 100%;
+}
+
+.container {
+  padding: 1rem 1.35rem;
+  margin: 0 auto;
+}
+
+.mockup {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.intro_text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2em 0;
+}
+
+.intro_text__header {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.intro_text__paragraph {
+  color: hsl(0, 2%, 35%);
+}
+
+.intro_text > button {
+  display: flex;
+  align-self: start;
+}
+
+.get_started__btn {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(30, 50%, 98%);
+  background: hsl(239, 64%, 63%);
+  padding: 1.25rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.free {
+  font-weight: 300;
+}
+
+.avatars_aft {
+  color: hsl(0, 2%, 35%);
+  margin-bottom: 6em;
+}
+
+.join_thousands {
+  font-weight: 700;
+  color: hsl(239, 64%, 63%);
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1204px) {
+  .container {
+    padding: 1.5rem 3.2rem;
+    margin: 0 auto;
+  }
+
+  .mockup {
+    width: 400px;
+    margin: 2em auto 4em;
+  }
+
+  .intro_text__header {
+    font-size: 3.4rem;
+    font-weight: 600;
+    max-width: 39rem;
+    line-height: 3.5rem;
+  }
+
+  .intro_text__paragraph {
+    max-width: 44rem;
+  }
+
+  .get_started__btn {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: hsl(30, 50%, 98%);
+    background: hsl(239, 64%, 63%);
+    padding: 1.25rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .free {
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 1205px) {
+  .container {
+    padding: 1.5rem 4.2rem;
+    margin: 0 auto;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .mockup {
+    width: 520px;
+    margin: 2em auto 4em;
+  }
+
+  .get_started__btn:hover {
+    cursor: pointer;
+    background: hsla(239, 87%, 56%, 0.846);
+  }
+
+  .intro_text__header {
+    font-size: 4rem;
+    font-weight: 600;
+    max-width: 50rem;
+    line-height: 5rem;
+  }
+
+  .intro_text__paragraph {
+    max-width: 40rem;
+  }
+}

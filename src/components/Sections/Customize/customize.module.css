@@ -1,0 +1,123 @@
+.container {
+  padding: 1rem 1.35rem;
+  margin: 1.2rem auto 0;
+}
+
+.socials_img {
+  display: flex;
+  width: 285px;
+  margin: 0 auto;
+}
+
+.customize_txts {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.25em 0;
+  max-width: 40rem;
+}
+
+.customize_txts__header {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+.customize_txts__paragraph {
+  color: hsl(0, 2%, 35%);
+  padding-right: 1rem;
+}
+
+.customize_link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 700;
+  color: rgb(100, 102, 221);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1204px) {
+  section > .customize_feed {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .container {
+    padding: 1.5rem 3.2rem;
+    margin: 5rem auto 2rem;
+  }
+
+  .socials_img {
+    max-width: 40%;
+  }
+
+  .customize_txts {
+    margin: 0 1em 0 0;
+    gap: 1.5rem;
+  }
+
+  .customize_txts__header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    max-width: 34rem;
+    line-height: 3rem;
+  }
+
+  .customize_txts__paragraph {
+    max-width: 34rem;
+  }
+
+  .customize_link {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 700;
+    color: rgb(100, 102, 221);
+  }
+}
+
+@media only screen and (min-width: 1205px) {
+  section > .customize_feed {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .container {
+    padding: 1.5rem 4.2rem;
+    margin: 5rem auto 2rem;
+  }
+
+  .socials_img {
+    max-width: 35%;
+  }
+
+  .customize_txts {
+    margin: 0 1em 0 0;
+    gap: 1.5rem;
+  }
+
+  .customize_txts__header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    max-width: 40rem;
+    line-height: 3rem;
+  }
+
+  .customize_txts__paragraph {
+    max-width: 40rem;
+  }
+
+  .customize_link:hover {
+    color: hsla(239, 87%, 56%, 0.846);
+    text-decoration: underline;
+  }
+  
+}

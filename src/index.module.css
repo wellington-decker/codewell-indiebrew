@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --eyeball: hsl(30, 50%, 98%);
+  --sleep: hsl(0, 3%, 7%);
+  --candy-grape: hsl(248, 95%, 64%);
+  --smokescreen: hsl(0, 2%, 35%);
+  --fuego: hsl(8, 80%, 57%);
+  --blush: hsl(336, 13%, 85%);
+  --twilight-meadow: hsl(178, 40%, 48%);
+  --pan-purple: hsl(239, 64%, 63%);
+  --perrywinkle: hsl(243, 49%, 73%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
